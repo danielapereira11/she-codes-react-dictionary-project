@@ -1,0 +1,15 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: rgb(66, 66, 66);
+  margin-top: 1rem;
+}
+
+form {
+  margin-top: 3rem;
+  text-align: center;
+}
