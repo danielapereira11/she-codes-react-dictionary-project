@@ -1,4 +1,6 @@
 import React from "react";
+import Antonyms from "./Antonyms";
+import Synonyms from "./Synonyms";
 import "./Dictionary.css";
 
 export default function Meaning(props) {
@@ -18,6 +20,10 @@ export default function Meaning(props) {
           </div>
         );
       })}
+
+      <Antonyms antonyms={props.meaning.antonyms} />
+      <br />
+      <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
 }
