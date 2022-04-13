@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Meaning from "./Meaning";
+import "./Dictionary.css";
 
 export default function Results(props) {
   if (props.results) {
@@ -13,6 +14,7 @@ export default function Results(props) {
             <div key={index}>
               <h4>{meaning.partOfSpeech}</h4>
               <Meaning meaning={meaning} />
+              <br />
             </div>
           );
         })}

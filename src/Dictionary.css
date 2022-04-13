@@ -3,13 +3,42 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  color: rgb(8, 53, 83);
+}
+
 h2 {
   font-size: 1.2em;
-  color: rgb(66, 66, 66);
+  color: rgb(32, 83, 134);
   margin-top: 1rem;
+}
+
+h3 {
+  color: rgb(27, 164, 162);
+  font-size: 2em;
+}
+
+h4 {
+  color: rgb(32, 83, 134);
+  font-size: 1.5em;
 }
 
 form {
   margin-top: 3rem;
   text-align: center;
+}
+
+form button {
+  margin-left: 0.4rem;
+  background-color: rgb(19, 57, 94);
+  color: rgb(218, 235, 242);
+  font-weight: bold;
+  border-radius: 2px;
+  border: 0.5px solid rgb(19, 57, 94);
+}
+
+input {
+  background-color: rgb(218, 235, 242);
+  border-radius: 2px;
+  border: 0.5px solid rgb(19, 57, 94);
 }

@@ -23,7 +23,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h1>Dictionary</h1>
+      <h1>Dictionary 📖</h1>
       <h2>What word do you want to look up?</h2>
       <form onSubmit={search}>
         <input
@@ -32,6 +32,7 @@ export default function Dictionary() {
           placeholder=" Look me up..."
           onChange={handleChange}
         />
+        <button type="submit">🔎</button>
       </form>
       <br />
       <Results results={results} />
