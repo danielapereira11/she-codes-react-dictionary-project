@@ -8,6 +8,18 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
+        <footer>
+          <small>
+            <a
+              href="https://github.com/danielapereira11/she-codes-react-dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open-source code
+            </a>{" "}
+            by Daniela Pereira | Hosted on Netlify
+          </small>
+        </footer>
       </div>
     </div>
   );

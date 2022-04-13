@@ -6,3 +6,18 @@
   width: 75%;
   max-width: 90%;
 }
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
