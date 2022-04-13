@@ -4,7 +4,7 @@ export default function Antonyms(props) {
   if (props.antonyms.length > 0) {
     return (
       <div>
-        <h5>Antonyms:</h5>|{" "}
+        <h6>Antonyms:</h6>|{" "}
         {props.antonyms.map(function (antonym, index) {
           return <span key={index}>{antonym} | </span>;
         })}

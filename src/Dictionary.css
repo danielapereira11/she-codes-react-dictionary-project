@@ -20,10 +20,16 @@ h3 {
 
 h4 {
   color: rgb(32, 83, 134);
-  font-size: 1.5em;
+  font-weight: bolder;
+  font-size: 1.6em;
 }
 
 h5 {
+  color: rgb(32, 83, 134);
+  font-size: 1.4em;
+}
+
+h6 {
   color: rgb(8, 53, 83);
   font-size: 1.1em;
 }
@@ -46,4 +52,10 @@ input {
   background-color: rgb(218, 235, 242);
   border-radius: 2px;
   border: 0.5px solid rgb(19, 57, 94);
+}
+
+a.audioPhonetic {
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
 }
