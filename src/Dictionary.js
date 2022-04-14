@@ -6,15 +6,28 @@ import "./Dictionary.css";
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
+  let [photos, setPhotos] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data[0]);
+  }
+
+  function handlePhotos(response) {
+    console.log(response.data.photos);
+    setPhotos(response.data.photos);
   }
 
   function search(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
+
+    let pexelsApiKey =
+      "563492ad6f91700001000001b8dbd67f6ce84f98b19525612a6f4d7f";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    axios
+      .get(pexelsApiUrl, { headers: { Authorization: pexelsApiKey } })
+      .then(handlePhotos);
   }
 
   function handleChange(event) {
@@ -36,7 +49,7 @@ export default function Dictionary() {
           <button type="submit">🔎</button>
         </form>
       </section>
-      <Results results={results} />
+      <Results results={results} photos={photos} />
     </div>
   );
 }

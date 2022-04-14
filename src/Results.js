@@ -2,6 +2,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import Photos from "./Photos";
 import "./Dictionary.css";
 
 export default function Results(props) {
@@ -12,6 +13,7 @@ export default function Results(props) {
           <h3>{props.results.word} </h3>
           <Phonetics phonetics={props.results.phonetics} />
         </section>
+        <Photos photos={props.photos} />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
