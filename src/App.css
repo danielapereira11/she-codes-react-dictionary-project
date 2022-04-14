@@ -3,7 +3,7 @@
   padding: 3rem;
   border-radius: 5px;
   background-color: rgb(196, 223, 233);
-  width: 75%;
+  width: 80%;
   max-width: 90%;
 }
 
@@ -12,12 +12,12 @@ footer {
   margin-top: 1rem;
 }
 
-a {
+footer a {
   color: black;
   text-decoration: underline;
 }
 
-a:hover {
+footer a:hover {
   color: black;
   cursor: pointer;
 }

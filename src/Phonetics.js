@@ -1,5 +1,6 @@
 import React from "react";
 import AudioPhonetic from "./AudioPhonetic";
+import "./Dictionary.css";
 
 export default function Phonetics(props) {
   return (

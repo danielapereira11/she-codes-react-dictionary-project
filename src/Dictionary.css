@@ -1,3 +1,42 @@
+section {
+  background-color: #daebf2;
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 6px;
+}
+
+form {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+form button {
+  margin-left: 0.4rem;
+  background-color: rgb(19, 57, 94);
+  color: rgb(218, 235, 242);
+  font-weight: bold;
+  border-radius: 2px;
+  border: 0.5px solid rgb(19, 57, 94);
+  padding: 0.3em;
+}
+
+input {
+  background-color: rgb(218, 235, 242);
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  border: 0.5px solid rgba(19, 57, 94, 0.6);
+  padding: 0.3em;
+  width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Special Elite", cursive;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -19,43 +58,45 @@ h3 {
 }
 
 h4 {
-  color: rgb(32, 83, 134);
-  font-weight: bolder;
-  font-size: 1.6em;
+  color: rgb(32, 125, 123);
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 h5 {
-  color: rgb(32, 83, 134);
-  font-size: 1.4em;
-}
-
-h6 {
-  color: rgb(8, 53, 83);
+  color: #4c4f50;
   font-size: 1.1em;
-}
-
-form {
-  margin-top: 3rem;
-  text-align: center;
-}
-
-form button {
-  margin-left: 0.4rem;
-  background-color: rgb(19, 57, 94);
-  color: rgb(218, 235, 242);
   font-weight: bold;
-  border-radius: 2px;
-  border: 0.5px solid rgb(19, 57, 94);
 }
 
-input {
-  background-color: rgb(218, 235, 242);
-  border-radius: 2px;
-  border: 0.5px solid rgb(19, 57, 94);
+p {
+  color: #4c4f50;
+}
+
+.example {
+  font-size: small;
+  opacity: 0.8;
+}
+
+.Phonetics {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-weight: bolder;
 }
 
 a.audioPhonetic {
-  font-size: 0.9rem;
+  opacity: 2;
   text-decoration: none;
   cursor: pointer;
+  margin-left: 0.5em;
+}
+
+.Antonyms {
+  margin: 1.5em 0;
+}
+
+.Antonyms span,
+.Synonyms span {
+  opacity: 0.8;
+  margin-right: 2em;
 }
