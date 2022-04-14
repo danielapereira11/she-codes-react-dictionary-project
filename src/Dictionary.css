@@ -3,6 +3,7 @@ section {
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 6px;
+  box-shadow: 1px 2px 2px 1px rgba(8, 53, 83, 0.2);
 }
 
 form {
@@ -26,7 +27,7 @@ input {
   border-radius: 2px;
   border: 0.5px solid rgba(19, 57, 94, 0.6);
   padding: 0.3em;
-  width: 90%;
+  width: 70%;
 }
 
 h1,
@@ -104,4 +105,5 @@ a.audioPhonetic {
 .photo {
   border-radius: 4px;
   margin: 0.5em 0;
+  box-shadow: 1px 2px 2px 1px rgba(138, 175, 199, 0.2);
 }
